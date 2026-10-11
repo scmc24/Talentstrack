@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="600" viewBox="0 0 1120 600" font-family="Helvetica, Arial, sans-serif">
+<rect width="1120" height="600" fill="#F7F8F9"/>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5A6673"/></marker><marker id="fo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#C2571B"/></marker></defs>
+<text x="24" y="34" font-size="17" font-weight="bold" fill="#101720">Organisation du code selon le modèle-vue-contrôleur</text>
+<rect x="60" y="110" width="290" height="150" rx="5" fill="#FFFFFF" stroke="#C2571B" stroke-width="1.6"/>
+<rect x="60" y="110" width="290" height="4" rx="2" fill="#C2571B"/>
+<text x="205" y="136" font-size="14" font-weight="bold" fill="#101720" text-anchor="middle">VUE</text>
+<text x="205" y="156" font-size="11" fill="#5A6673" text-anchor="middle">Ce que l’utilisateur voit</text>
+<text x="205" y="172" font-size="11" fill="#5A6673" text-anchor="middle"></text>
+<text x="205" y="188" font-size="11" fill="#5A6673" text-anchor="middle">Pages, formulaires de saisie,</text>
+<text x="205" y="204" font-size="11" fill="#5A6673" text-anchor="middle">cartes et tableaux de bord</text>
+<rect x="415" y="110" width="290" height="150" rx="5" fill="#FFFFFF" stroke="#101720" stroke-width="1.6"/>
+<rect x="415" y="110" width="290" height="4" rx="2" fill="#101720"/>
+<text x="560" y="136" font-size="14" font-weight="bold" fill="#101720" text-anchor="middle">CONTRÔLEUR</text>
+<text x="560" y="156" font-size="11" fill="#5A6673" text-anchor="middle">Ce qui décide</text>
+<text x="560" y="172" font-size="11" fill="#5A6673" text-anchor="middle"></text>
+<text x="560" y="188" font-size="11" fill="#5A6673" text-anchor="middle">Vérifie les droits, applique</text>
+<text x="560" y="204" font-size="11" fill="#5A6673" text-anchor="middle">les règles de gestion</text>
+<rect x="770" y="110" width="290" height="150" rx="5" fill="#FFFFFF" stroke="#0E7C5A" stroke-width="1.6"/>
+<rect x="770" y="110" width="290" height="4" rx="2" fill="#0E7C5A"/>
+<text x="915" y="136" font-size="14" font-weight="bold" fill="#101720" text-anchor="middle">MODÈLE</text>
+<text x="915" y="156" font-size="11" fill="#5A6673" text-anchor="middle">Ce qui est enregistré</text>
+<text x="915" y="172" font-size="11" fill="#5A6673" text-anchor="middle"></text>
+<text x="915" y="188" font-size="11" fill="#5A6673" text-anchor="middle">Tables, contraintes,</text>
+<text x="915" y="204" font-size="11" fill="#5A6673" text-anchor="middle">requêtes d’analyse</text>
+<line x1="350" y1="160" x2="411" y2="160" stroke="#5A6673" stroke-width="1.4" marker-end="url(#f)"/>
+<text x="380" y="152" font-size="10" fill="#5A6673" text-anchor="middle">demande</text>
+<line x1="705" y1="160" x2="766" y2="160" stroke="#5A6673" stroke-width="1.4" marker-end="url(#f)"/>
+<text x="735" y="152" font-size="10" fill="#5A6673" text-anchor="middle">lecture</text>
+<line x1="766" y1="215" x2="705" y2="215" stroke="#5A6673" stroke-width="1.4" marker-end="url(#f)"/>
+<text x="735" y="233" font-size="10" fill="#5A6673" text-anchor="middle">données</text>
+<line x1="411" y1="215" x2="350" y2="215" stroke="#5A6673" stroke-width="1.4" marker-end="url(#f)"/>
+<text x="380" y="233" font-size="10" fill="#5A6673" text-anchor="middle">page prête</text>
+<text x="24" y="330" font-size="12.5" font-weight="bold" fill="#101720">Ce que cela donne concrètement</text>
+<rect x="60" y="355" width="290" height="100" rx="5" fill="#FFFFFF" stroke="#C9D0D6" stroke-width="1"/>
+<rect x="60" y="355" width="4" height="100" rx="2" fill="#C2571B"/>
+<text x="78" y="388" font-size="11" fill="#101720">Les écrans : effectif, saisie d’une étape,</text>
+<text x="78" y="408" font-size="11" fill="#101720">fiche de parcours, carte des territoires</text>
+<rect x="415" y="355" width="290" height="100" rx="5" fill="#FFFFFF" stroke="#C9D0D6" stroke-width="1"/>
+<rect x="415" y="355" width="4" height="100" rx="2" fill="#101720"/>
+<text x="433" y="388" font-size="11" fill="#101720">Les services : qui peut attester, qui peut</text>
+<text x="433" y="408" font-size="11" fill="#101720">évaluer, quelles données sont visibles</text>
+<rect x="770" y="355" width="290" height="100" rx="5" fill="#FFFFFF" stroke="#C9D0D6" stroke-width="1"/>
+<rect x="770" y="355" width="4" height="100" rx="2" fill="#0E7C5A"/>
+<text x="788" y="388" font-size="11" fill="#101720">La base et ses règles : un grade sans autorité</text>
+<text x="788" y="408" font-size="11" fill="#101720">ou une note hors barème sont refusés</text>
+<text x="24" y="565" font-size="10.5" fill="#5A6673">Séparer ces trois rôles permet de modifier un écran sans toucher aux règles,</text>
+<text x="24" y="580" font-size="10.5" fill="#5A6673">et de changer une règle sans refaire les écrans.</text>
+</svg>

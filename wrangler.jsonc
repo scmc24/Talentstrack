@@ -1,0 +1,43 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "talentstrack",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-09-01",
+  // nodejs_compat est exigé par l'adaptateur Next. Le code métier, lui,
+  // n'utilise que des API web standard.
+  "compatibility_flags": ["nodejs_compat"],
+
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "talentstrack",
+      // À remplacer après « wrangler d1 create parcours ».
+      "database_id": "8ba01cbe-d709-485d-b703-97670e68af78"
+    }
+  ],
+
+  "r2_buckets": [
+    {
+      "binding": "FICHIERS",
+      "bucket_name": "talentstrack-fichiers"
+    }
+  ],
+
+  "vars": {
+    // Le site et les services partagent la même origine : cette liste ne sert
+    // plus qu'à un éventuel client tiers. Laissée vide, aucune origine
+    // extérieure n'est acceptée.
+    "ORIGINES_AUTORISEES": "",
+    // Adresse publique du site, pour les adresses canoniques et le plan du
+    // site. À remplacer par le domaine réel au déploiement.
+    "NEXT_PUBLIC_SITE": "https://talentstrack.scmchost.com"
+  }
+
+  // SEL_MOT_DE_PASSE est un secret, jamais une variable :
+  //   wrangler secret put SEL_MOT_DE_PASSE
+}

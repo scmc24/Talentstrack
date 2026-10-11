@@ -1,0 +1,293 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="1180" viewBox="0 0 1420 1180" font-family="Helvetica, Arial, sans-serif">
+<rect width="1420" height="1180" fill="#F7F8F9"/>
+<defs>
+<marker id="fleche" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5A6673"/></marker>
+<marker id="patte" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M10 0L0 5L10 10M0 5H10" fill="none" stroke="#5A6673" stroke-width="1.3"/></marker>
+</defs>
+<text x="24" y="34" font-size="17" font-weight="bold" fill="#101720">Modèle logique de données — schéma relationnel complet</text>
+<path d="M245 493 C137.5 493, 137.5 340.5, 30 340.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M245 733 C137.5 733, 137.5 340.5, 30 340.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M245 893 C137.5 893, 137.5 340.5, 30 340.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M290 138 C267.5 138, 267.5 608.0, 245 608.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M290 153 C267.5 153, 267.5 155.5, 245 155.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M290 433 C267.5 433, 267.5 155.5, 245 155.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M505 553 C397.5 553, 397.5 163.0, 290 163.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M505 698 C397.5 698, 397.5 443.0, 290 443.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M290 713 C267.5 713, 267.5 340.5, 245 340.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M290 728 C267.5 728, 267.5 488.0, 245 488.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M290 758 C267.5 758, 267.5 155.5, 245 155.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M505 863 C397.5 863, 397.5 443.0, 290 443.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M505 973 C397.5 973, 397.5 443.0, 290 443.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M505 988 C397.5 988, 397.5 443.0, 290 443.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M570 108 C537.5 108, 537.5 723.0, 505 723.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M570 343 C537.5 343, 537.5 723.0, 505 723.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M570 358 C537.5 358, 537.5 163.0, 505 163.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M570 373 C407.5 373, 407.5 340.5, 245 340.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M570 388 C407.5 388, 407.5 488.0, 245 488.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M570 403 C407.5 403, 407.5 155.5, 245 155.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M570 523 C537.5 523, 537.5 443.0, 505 443.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M570 663 C537.5 663, 537.5 723.0, 505 723.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M785 678 C677.5 678, 677.5 428.0, 570 428.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M785 693 C677.5 693, 677.5 428.0, 570 428.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M570 723 C537.5 723, 537.5 443.0, 505 443.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M785 883 C677.5 883, 677.5 428.0, 570 428.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M570 898 C537.5 898, 537.5 723.0, 505 723.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M570 973 C537.5 973, 537.5 443.0, 505 443.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M850 153 C547.5 153, 547.5 340.5, 245 340.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M850 168 C547.5 168, 547.5 155.5, 245 155.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M850 243 C677.5 243, 677.5 163.0, 505 163.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M1065 343 C957.5 343, 957.5 170.5, 850 170.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M850 358 C677.5 358, 677.5 723.0, 505 723.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M850 453 C677.5 453, 677.5 723.0, 505 723.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M850 468 C817.5 468, 817.5 428.0, 785 428.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M1065 483 C957.5 483, 957.5 170.5, 850 170.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M850 558 C677.5 558, 677.5 443.0, 505 443.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M850 633 C677.5 633, 677.5 723.0, 505 723.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M850 648 C817.5 648, 817.5 428.0, 785 428.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M850 663 C677.5 663, 677.5 443.0, 505 443.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M1065 778 C957.5 778, 957.5 658.0, 850 658.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M850 793 C547.5 793, 547.5 750.5, 245 750.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M1130 123 C817.5 123, 817.5 723.0, 505 723.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M1130 138 C687.5 138, 687.5 903.0, 245 903.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M1130 183 C687.5 183, 687.5 155.5, 245 155.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M1130 228 C817.5 228, 817.5 443.0, 505 443.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M1130 343 C687.5 343, 687.5 340.5, 245 340.5" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M1130 513 C817.5 513, 817.5 723.0, 505 723.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M1345 528 C1237.5 528, 1237.5 368.0, 1130 368.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<path d="M1130 813 C817.5 813, 817.5 443.0, 505 443.0" fill="none" stroke="#5A6673" stroke-width="0.9" stroke-opacity="0.55" marker-end="url(#fleche)"/>
+<rect x="30" y="70" width="215" height="171" rx="4" fill="#FFFFFF" stroke="#0E7C5A" stroke-width="1.4"/><rect x="30" y="70" width="215" height="22" rx="4" fill="#0E7C5A"/><rect x="30" y="84" width="215" height="8" fill="#0E7C5A"/><text x="38" y="85" font-size="11.5" font-weight="bold" fill="#FFFFFF">unites_admin</text>
+<text x="38" y="108" font-size="10" fill="#C2571B">PK id</text>
+<text x="38" y="123" font-size="10" fill="#101720">code *</text>
+<text x="38" y="138" font-size="10" fill="#101720">nom *</text>
+<text x="38" y="153" font-size="10" fill="#101720">niveau *</text>
+<text x="38" y="168" font-size="10" fill="#0E7C5A">FK parent_id</text>
+<text x="38" y="183" font-size="10" fill="#101720">lat</text>
+<text x="38" y="198" font-size="10" fill="#101720">lon</text>
+<text x="38" y="213" font-size="10" fill="#101720">population</text>
+<text x="38" y="228" font-size="10" fill="#101720">actif *</text>
+<rect x="30" y="270" width="215" height="141" rx="4" fill="#FFFFFF" stroke="#0E7C5A" stroke-width="1.4"/><rect x="30" y="270" width="215" height="22" rx="4" fill="#0E7C5A"/><rect x="30" y="284" width="215" height="8" fill="#0E7C5A"/><text x="38" y="285" font-size="11.5" font-weight="bold" fill="#FFFFFF">disciplines</text>
+<text x="38" y="308" font-size="10" fill="#C2571B">PK id</text>
+<text x="38" y="323" font-size="10" fill="#101720">nom *</text>
+<text x="38" y="338" font-size="10" fill="#101720">type *</text>
+<text x="38" y="353" font-size="10" fill="#101720">avec_postes *</text>
+<text x="38" y="368" font-size="10" fill="#101720">avec_grades *</text>
+<text x="38" y="383" font-size="10" fill="#101720">avec_categories *</text>
+<text x="38" y="398" font-size="10" fill="#101720">actif *</text>
+<rect x="30" y="440" width="215" height="96" rx="4" fill="#FFFFFF" stroke="#0E7C5A" stroke-width="1.4"/><rect x="30" y="440" width="215" height="22" rx="4" fill="#0E7C5A"/><rect x="30" y="454" width="215" height="8" fill="#0E7C5A"/><text x="38" y="455" font-size="11.5" font-weight="bold" fill="#FFFFFF">postes</text>
+<text x="38" y="478" font-size="10" fill="#C2571B">PK id</text>
+<text x="38" y="493" font-size="10" fill="#0E7C5A">FK discipline_id *</text>
+<text x="38" y="508" font-size="10" fill="#101720">nom *</text>
+<text x="38" y="523" font-size="10" fill="#101720">ordre *</text>
+<rect x="30" y="560" width="215" height="96" rx="4" fill="#FFFFFF" stroke="#0E7C5A" stroke-width="1.4"/><rect x="30" y="560" width="215" height="22" rx="4" fill="#0E7C5A"/><rect x="30" y="574" width="215" height="8" fill="#0E7C5A"/><text x="38" y="575" font-size="11.5" font-weight="bold" fill="#FFFFFF">types_structure</text>
+<text x="38" y="598" font-size="10" fill="#C2571B">PK id</text>
+<text x="38" y="613" font-size="10" fill="#101720">nom *</text>
+<text x="38" y="628" font-size="10" fill="#101720">rang *</text>
+<text x="38" y="643" font-size="10" fill="#101720">formel *</text>
+<rect x="30" y="680" width="215" height="141" rx="4" fill="#FFFFFF" stroke="#0E7C5A" stroke-width="1.4"/><rect x="30" y="680" width="215" height="22" rx="4" fill="#0E7C5A"/><rect x="30" y="694" width="215" height="8" fill="#0E7C5A"/><text x="38" y="695" font-size="11.5" font-weight="bold" fill="#FFFFFF">criteres</text>
+<text x="38" y="718" font-size="10" fill="#C2571B">PK id</text>
+<text x="38" y="733" font-size="10" fill="#0E7C5A">FK discipline_id</text>
+<text x="38" y="748" font-size="10" fill="#101720">famille *</text>
+<text x="38" y="763" font-size="10" fill="#101720">nom *</text>
+<text x="38" y="778" font-size="10" fill="#101720">description *</text>
+<text x="38" y="793" font-size="10" fill="#101720">ordre *</text>
+<text x="38" y="808" font-size="10" fill="#101720">actif *</text>
+<rect x="30" y="840" width="215" height="126" rx="4" fill="#FFFFFF" stroke="#0E7C5A" stroke-width="1.4"/><rect x="30" y="840" width="215" height="22" rx="4" fill="#0E7C5A"/><rect x="30" y="854" width="215" height="8" fill="#0E7C5A"/><text x="38" y="855" font-size="11.5" font-weight="bold" fill="#FFFFFF">grades</text>
+<text x="38" y="878" font-size="10" fill="#C2571B">PK id</text>
+<text x="38" y="893" font-size="10" fill="#0E7C5A">FK discipline_id *</text>
+<text x="38" y="908" font-size="10" fill="#101720">nom *</text>
+<text x="38" y="923" font-size="10" fill="#101720">abrege *</text>
+<text x="38" y="938" font-size="10" fill="#101720">ordre *</text>
+<text x="38" y="953" font-size="10" fill="#101720">couleur_hex</text>
+<rect x="290" y="70" width="215" height="186" rx="4" fill="#FFFFFF" stroke="#101720" stroke-width="1.4"/><rect x="290" y="70" width="215" height="22" rx="4" fill="#101720"/><rect x="290" y="84" width="215" height="8" fill="#101720"/><text x="298" y="85" font-size="11.5" font-weight="bold" fill="#FFFFFF">structures</text>
+<text x="298" y="108" font-size="10" fill="#C2571B">PK id</text>
+<text x="298" y="123" font-size="10" fill="#101720">nom *</text>
+<text x="298" y="138" font-size="10" fill="#0E7C5A">FK type_id *</text>
+<text x="298" y="153" font-size="10" fill="#0E7C5A">FK unite_id *</text>
+<text x="298" y="168" font-size="10" fill="#101720">lat</text>
+<text x="298" y="183" font-size="10" fill="#101720">lon</text>
+<text x="298" y="198" font-size="10" fill="#101720">adresse *</text>
+<text x="298" y="213" font-size="10" fill="#101720">contact *</text>
+<text x="298" y="228" font-size="10" fill="#101720">verifiee *</text>
+<text x="298" y="243" font-size="10" fill="#101720">cree_le *</text>
+<rect x="290" y="290" width="215" height="306" rx="4" fill="#FFFFFF" stroke="#101720" stroke-width="1.4"/><rect x="290" y="290" width="215" height="22" rx="4" fill="#101720"/><rect x="290" y="304" width="215" height="8" fill="#101720"/><text x="298" y="305" font-size="11.5" font-weight="bold" fill="#FFFFFF">personnes</text>
+<text x="298" y="328" font-size="10" fill="#C2571B">PK id</text>
+<text x="298" y="343" font-size="10" fill="#101720">nom *</text>
+<text x="298" y="358" font-size="10" fill="#101720">naissance</text>
+<text x="298" y="373" font-size="10" fill="#101720">sexe</text>
+<text x="298" y="388" font-size="10" fill="#101720">nationalite *</text>
+<text x="298" y="403" font-size="10" fill="#101720">telephone</text>
+<text x="298" y="418" font-size="10" fill="#101720">email</text>
+<text x="298" y="433" font-size="10" fill="#0E7C5A">FK unite_id</text>
+<text x="298" y="448" font-size="10" fill="#101720">est_sportif *</text>
+<text x="298" y="463" font-size="10" fill="#101720">est_encadrant *</text>
+<text x="298" y="478" font-size="10" fill="#101720">est_recruteur *</text>
+<text x="298" y="493" font-size="10" fill="#101720">hash_mdp</text>
+<text x="298" y="508" font-size="10" fill="#101720">tuteur_nom *</text>
+<text x="298" y="523" font-size="10" fill="#101720">tuteur_telephone *</text>
+<text x="298" y="538" font-size="10" fill="#101720">role *</text>
+<text x="298" y="553" font-size="10" fill="#0E7C5A">FK structure_id</text>
+<text x="298" y="568" font-size="10" fill="#101720">actif *</text>
+<text x="298" y="583" font-size="10" fill="#101720">cree_le *</text>
+<rect x="290" y="660" width="215" height="126" rx="4" fill="#FFFFFF" stroke="#101720" stroke-width="1.4"/><rect x="290" y="660" width="215" height="22" rx="4" fill="#101720"/><rect x="290" y="674" width="215" height="8" fill="#101720"/><text x="298" y="675" font-size="11.5" font-weight="bold" fill="#FFFFFF">sportifs</text>
+<text x="298" y="698" font-size="10" fill="#C2571B">PK personne_id</text>
+<text x="298" y="713" font-size="10" fill="#0E7C5A">FK discipline_id *</text>
+<text x="298" y="728" font-size="10" fill="#0E7C5A">FK poste_id</text>
+<text x="298" y="743" font-size="10" fill="#101720">lateralite</text>
+<text x="298" y="758" font-size="10" fill="#0E7C5A">FK unite_origine_id</text>
+<text x="298" y="773" font-size="10" fill="#101720">statut *</text>
+<rect x="290" y="810" width="215" height="96" rx="4" fill="#FFFFFF" stroke="#101720" stroke-width="1.4"/><rect x="290" y="810" width="215" height="22" rx="4" fill="#101720"/><rect x="290" y="824" width="215" height="8" fill="#101720"/><text x="298" y="825" font-size="11.5" font-weight="bold" fill="#FFFFFF">sessions</text>
+<text x="298" y="848" font-size="10" fill="#C2571B">PK id</text>
+<text x="298" y="863" font-size="10" fill="#0E7C5A">FK personne_id *</text>
+<text x="298" y="878" font-size="10" fill="#101720">expire_le *</text>
+<text x="298" y="893" font-size="10" fill="#101720">cree_le *</text>
+<rect x="290" y="920" width="215" height="141" rx="4" fill="#FFFFFF" stroke="#101720" stroke-width="1.4"/><rect x="290" y="920" width="215" height="22" rx="4" fill="#101720"/><rect x="290" y="934" width="215" height="8" fill="#101720"/><text x="298" y="935" font-size="11.5" font-weight="bold" fill="#FFFFFF">codes_acces</text>
+<text x="298" y="958" font-size="10" fill="#C2571B">PK code</text>
+<text x="298" y="973" font-size="10" fill="#0E7C5A">FK personne_id *</text>
+<text x="298" y="988" font-size="10" fill="#0E7C5A">FK cree_par *</text>
+<text x="298" y="1003" font-size="10" fill="#101720">destinataire *</text>
+<text x="298" y="1018" font-size="10" fill="#101720">expire_le *</text>
+<text x="298" y="1033" font-size="10" fill="#101720">utilise_le</text>
+<text x="298" y="1048" font-size="10" fill="#101720">cree_le *</text>
+<rect x="570" y="70" width="215" height="201" rx="4" fill="#FFFFFF" stroke="#C2571B" stroke-width="1.4"/><rect x="570" y="70" width="215" height="22" rx="4" fill="#C2571B"/><rect x="570" y="84" width="215" height="8" fill="#C2571B"/><text x="578" y="85" font-size="11.5" font-weight="bold" fill="#FFFFFF">socles</text>
+<text x="578" y="108" font-size="10" fill="#C2571B">PK sportif_id</text>
+<text x="578" y="123" font-size="10" fill="#101720">age_premier_contact</text>
+<text x="578" y="138" font-size="10" fill="#101720">age_premiere_structure</text>
+<text x="578" y="153" font-size="10" fill="#101720">contexte_initial</text>
+<text x="578" y="168" font-size="10" fill="#101720">soutien_famille</text>
+<text x="578" y="183" font-size="10" fill="#101720">encadrement_initial</text>
+<text x="578" y="198" font-size="10" fill="#101720">conditions_materielles</text>
+<text x="578" y="213" font-size="10" fill="#101720">scolarise</text>
+<text x="578" y="228" font-size="10" fill="#101720">consentement_analyse *</text>
+<text x="578" y="243" font-size="10" fill="#101720">note *</text>
+<text x="578" y="258" font-size="10" fill="#101720">maj_le *</text>
+<rect x="570" y="290" width="215" height="276" rx="4" fill="#FFFFFF" stroke="#C2571B" stroke-width="1.4"/><rect x="570" y="290" width="215" height="22" rx="4" fill="#C2571B"/><rect x="570" y="304" width="215" height="8" fill="#C2571B"/><text x="578" y="305" font-size="11.5" font-weight="bold" fill="#FFFFFF">etapes</text>
+<text x="578" y="328" font-size="10" fill="#C2571B">PK id</text>
+<text x="578" y="343" font-size="10" fill="#0E7C5A">FK sportif_id *</text>
+<text x="578" y="358" font-size="10" fill="#0E7C5A">FK structure_id</text>
+<text x="578" y="373" font-size="10" fill="#0E7C5A">FK discipline_id *</text>
+<text x="578" y="388" font-size="10" fill="#0E7C5A">FK poste_id</text>
+<text x="578" y="403" font-size="10" fill="#0E7C5A">FK unite_id *</text>
+<text x="578" y="418" font-size="10" fill="#101720">lat</text>
+<text x="578" y="433" font-size="10" fill="#101720">lon</text>
+<text x="578" y="448" font-size="10" fill="#101720">debut *</text>
+<text x="578" y="463" font-size="10" fill="#101720">fin</text>
+<text x="578" y="478" font-size="10" fill="#101720">niveau</text>
+<text x="578" y="493" font-size="10" fill="#101720">motif_fin</text>
+<text x="578" y="508" font-size="10" fill="#101720">fiabilite *</text>
+<text x="578" y="523" font-size="10" fill="#0E7C5A">FK atteste_par</text>
+<text x="578" y="538" font-size="10" fill="#101720">atteste_le</text>
+<text x="578" y="553" font-size="10" fill="#101720">cree_le *</text>
+<rect x="570" y="610" width="215" height="201" rx="4" fill="#FFFFFF" stroke="#C2571B" stroke-width="1.4"/><rect x="570" y="610" width="215" height="22" rx="4" fill="#C2571B"/><rect x="570" y="624" width="215" height="8" fill="#C2571B"/><text x="578" y="625" font-size="11.5" font-weight="bold" fill="#FFFFFF">transitions</text>
+<text x="578" y="648" font-size="10" fill="#C2571B">PK id</text>
+<text x="578" y="663" font-size="10" fill="#0E7C5A">FK sportif_id *</text>
+<text x="578" y="678" font-size="10" fill="#0E7C5A">FK etape_avant</text>
+<text x="578" y="693" font-size="10" fill="#0E7C5A">FK etape_apres *</text>
+<text x="578" y="708" font-size="10" fill="#101720">mode *</text>
+<text x="578" y="723" font-size="10" fill="#0E7C5A">FK agent_id</text>
+<text x="578" y="738" font-size="10" fill="#101720">evenement_id</text>
+<text x="578" y="753" font-size="10" fill="#101720">date_effet *</text>
+<text x="578" y="768" font-size="10" fill="#101720">fiabilite *</text>
+<text x="578" y="783" font-size="10" fill="#101720">note *</text>
+<text x="578" y="798" font-size="10" fill="#101720">cree_le *</text>
+<rect x="570" y="830" width="215" height="186" rx="4" fill="#FFFFFF" stroke="#C2571B" stroke-width="1.4"/><rect x="570" y="830" width="215" height="22" rx="4" fill="#C2571B"/><rect x="570" y="844" width="215" height="8" fill="#C2571B"/><text x="578" y="845" font-size="11.5" font-weight="bold" fill="#FFFFFF">contestations</text>
+<text x="578" y="868" font-size="10" fill="#C2571B">PK id</text>
+<text x="578" y="883" font-size="10" fill="#0E7C5A">FK etape_id *</text>
+<text x="578" y="898" font-size="10" fill="#0E7C5A">FK sportif_id *</text>
+<text x="578" y="913" font-size="10" fill="#101720">motif *</text>
+<text x="578" y="928" font-size="10" fill="#101720">texte *</text>
+<text x="578" y="943" font-size="10" fill="#101720">statut *</text>
+<text x="578" y="958" font-size="10" fill="#101720">reponse *</text>
+<text x="578" y="973" font-size="10" fill="#0E7C5A">FK traite_par</text>
+<text x="578" y="988" font-size="10" fill="#101720">traite_le</text>
+<text x="578" y="1003" font-size="10" fill="#101720">cree_le *</text>
+<rect x="850" y="70" width="215" height="201" rx="4" fill="#FFFFFF" stroke="#5A6673" stroke-width="1.4"/><rect x="850" y="70" width="215" height="22" rx="4" fill="#5A6673"/><rect x="850" y="84" width="215" height="8" fill="#5A6673"/><text x="858" y="85" font-size="11.5" font-weight="bold" fill="#FFFFFF">evenements</text>
+<text x="858" y="108" font-size="10" fill="#C2571B">PK id</text>
+<text x="858" y="123" font-size="10" fill="#101720">nom *</text>
+<text x="858" y="138" font-size="10" fill="#101720">type *</text>
+<text x="858" y="153" font-size="10" fill="#0E7C5A">FK discipline_id</text>
+<text x="858" y="168" font-size="10" fill="#0E7C5A">FK unite_id *</text>
+<text x="858" y="183" font-size="10" fill="#101720">lat</text>
+<text x="858" y="198" font-size="10" fill="#101720">lon</text>
+<text x="858" y="213" font-size="10" fill="#101720">date_debut *</text>
+<text x="858" y="228" font-size="10" fill="#101720">date_fin</text>
+<text x="858" y="243" font-size="10" fill="#0E7C5A">FK organisateur_id</text>
+<text x="858" y="258" font-size="10" fill="#101720">cree_le *</text>
+<rect x="850" y="290" width="215" height="111" rx="4" fill="#FFFFFF" stroke="#5A6673" stroke-width="1.4"/><rect x="850" y="290" width="215" height="22" rx="4" fill="#5A6673"/><rect x="850" y="304" width="215" height="8" fill="#5A6673"/><text x="858" y="305" font-size="11.5" font-weight="bold" fill="#FFFFFF">participations</text>
+<text x="858" y="328" font-size="10" fill="#C2571B">PK id</text>
+<text x="858" y="343" font-size="10" fill="#0E7C5A">FK evenement_id *</text>
+<text x="858" y="358" font-size="10" fill="#0E7C5A">FK sportif_id *</text>
+<text x="858" y="373" font-size="10" fill="#101720">resultat *</text>
+<text x="858" y="388" font-size="10" fill="#101720">distinction *</text>
+<rect x="850" y="400" width="215" height="171" rx="4" fill="#FFFFFF" stroke="#5A6673" stroke-width="1.4"/><rect x="850" y="400" width="215" height="22" rx="4" fill="#5A6673"/><rect x="850" y="414" width="215" height="8" fill="#5A6673"/><text x="858" y="415" font-size="11.5" font-weight="bold" fill="#FFFFFF">mesures</text>
+<text x="858" y="438" font-size="10" fill="#C2571B">PK id</text>
+<text x="858" y="453" font-size="10" fill="#0E7C5A">FK sportif_id *</text>
+<text x="858" y="468" font-size="10" fill="#0E7C5A">FK etape_id</text>
+<text x="858" y="483" font-size="10" fill="#0E7C5A">FK evenement_id</text>
+<text x="858" y="498" font-size="10" fill="#101720">type *</text>
+<text x="858" y="513" font-size="10" fill="#101720">valeur *</text>
+<text x="858" y="528" font-size="10" fill="#101720">date_mesure *</text>
+<text x="858" y="543" font-size="10" fill="#101720">source *</text>
+<text x="858" y="558" font-size="10" fill="#0E7C5A">FK mesure_par</text>
+<rect x="850" y="580" width="215" height="156" rx="4" fill="#FFFFFF" stroke="#5A6673" stroke-width="1.4"/><rect x="850" y="580" width="215" height="22" rx="4" fill="#5A6673"/><rect x="850" y="594" width="215" height="8" fill="#5A6673"/><text x="858" y="595" font-size="11.5" font-weight="bold" fill="#FFFFFF">evaluations</text>
+<text x="858" y="618" font-size="10" fill="#C2571B">PK id</text>
+<text x="858" y="633" font-size="10" fill="#0E7C5A">FK sportif_id *</text>
+<text x="858" y="648" font-size="10" fill="#0E7C5A">FK etape_id</text>
+<text x="858" y="663" font-size="10" fill="#0E7C5A">FK evaluateur_id *</text>
+<text x="858" y="678" font-size="10" fill="#101720">contexte *</text>
+<text x="858" y="693" font-size="10" fill="#101720">date_evaluation *</text>
+<text x="858" y="708" font-size="10" fill="#101720">commentaire *</text>
+<text x="858" y="723" font-size="10" fill="#101720">cree_le *</text>
+<rect x="850" y="740" width="215" height="96" rx="4" fill="#FFFFFF" stroke="#5A6673" stroke-width="1.4"/><rect x="850" y="740" width="215" height="22" rx="4" fill="#5A6673"/><rect x="850" y="754" width="215" height="8" fill="#5A6673"/><text x="858" y="755" font-size="11.5" font-weight="bold" fill="#FFFFFF">notes_evaluation</text>
+<text x="858" y="778" font-size="10" fill="#0E7C5A">FK evaluation_id *</text>
+<text x="858" y="793" font-size="10" fill="#0E7C5A">FK critere_id *</text>
+<text x="858" y="808" font-size="10" fill="#101720">note *</text>
+<text x="858" y="823" font-size="10" fill="#101720">commentaire *</text>
+<rect x="1130" y="70" width="215" height="201" rx="4" fill="#FFFFFF" stroke="#5A6673" stroke-width="1.4"/><rect x="1130" y="70" width="215" height="22" rx="4" fill="#5A6673"/><rect x="1130" y="84" width="215" height="8" fill="#5A6673"/><text x="1138" y="85" font-size="11.5" font-weight="bold" fill="#FFFFFF">grades_obtenus</text>
+<text x="1138" y="108" font-size="10" fill="#C2571B">PK id</text>
+<text x="1138" y="123" font-size="10" fill="#0E7C5A">FK sportif_id *</text>
+<text x="1138" y="138" font-size="10" fill="#0E7C5A">FK grade_id *</text>
+<text x="1138" y="153" font-size="10" fill="#101720">date_obtention *</text>
+<text x="1138" y="168" font-size="10" fill="#101720">autorite *</text>
+<text x="1138" y="183" font-size="10" fill="#0E7C5A">FK unite_id</text>
+<text x="1138" y="198" font-size="10" fill="#101720">numero_diplome *</text>
+<text x="1138" y="213" font-size="10" fill="#101720">fiabilite *</text>
+<text x="1138" y="228" font-size="10" fill="#0E7C5A">FK atteste_par</text>
+<text x="1138" y="243" font-size="10" fill="#101720">atteste_le</text>
+<text x="1138" y="258" font-size="10" fill="#101720">cree_le *</text>
+<rect x="1130" y="290" width="215" height="156" rx="4" fill="#FFFFFF" stroke="#5A6673" stroke-width="1.4"/><rect x="1130" y="290" width="215" height="22" rx="4" fill="#5A6673"/><rect x="1130" y="304" width="215" height="8" fill="#5A6673"/><text x="1138" y="305" font-size="11.5" font-weight="bold" fill="#FFFFFF">categories_poids</text>
+<text x="1138" y="328" font-size="10" fill="#C2571B">PK id</text>
+<text x="1138" y="343" font-size="10" fill="#0E7C5A">FK discipline_id *</text>
+<text x="1138" y="358" font-size="10" fill="#101720">sexe *</text>
+<text x="1138" y="373" font-size="10" fill="#101720">tranche_age *</text>
+<text x="1138" y="388" font-size="10" fill="#101720">nom *</text>
+<text x="1138" y="403" font-size="10" fill="#101720">mini_kg</text>
+<text x="1138" y="418" font-size="10" fill="#101720">maxi_kg</text>
+<text x="1138" y="433" font-size="10" fill="#101720">ordre *</text>
+<rect x="1130" y="460" width="215" height="126" rx="4" fill="#FFFFFF" stroke="#5A6673" stroke-width="1.4"/><rect x="1130" y="460" width="215" height="22" rx="4" fill="#5A6673"/><rect x="1130" y="474" width="215" height="8" fill="#5A6673"/><text x="1138" y="475" font-size="11.5" font-weight="bold" fill="#FFFFFF">appartenances_poids</text>
+<text x="1138" y="498" font-size="10" fill="#C2571B">PK id</text>
+<text x="1138" y="513" font-size="10" fill="#0E7C5A">FK sportif_id *</text>
+<text x="1138" y="528" font-size="10" fill="#0E7C5A">FK categorie_id *</text>
+<text x="1138" y="543" font-size="10" fill="#101720">debut *</text>
+<text x="1138" y="558" font-size="10" fill="#101720">fin</text>
+<text x="1138" y="573" font-size="10" fill="#101720">cree_le *</text>
+<rect x="1130" y="610" width="215" height="231" rx="4" fill="#FFFFFF" stroke="#5A6673" stroke-width="1.4"/><rect x="1130" y="610" width="215" height="22" rx="4" fill="#5A6673"/><rect x="1130" y="624" width="215" height="8" fill="#5A6673"/><text x="1138" y="625" font-size="11.5" font-weight="bold" fill="#FFFFFF">fichiers</text>
+<text x="1138" y="648" font-size="10" fill="#C2571B">PK id</text>
+<text x="1138" y="663" font-size="10" fill="#101720">cle *</text>
+<text x="1138" y="678" font-size="10" fill="#101720">type_cible *</text>
+<text x="1138" y="693" font-size="10" fill="#101720">cible_id *</text>
+<text x="1138" y="708" font-size="10" fill="#101720">usage *</text>
+<text x="1138" y="723" font-size="10" fill="#101720">mime *</text>
+<text x="1138" y="738" font-size="10" fill="#101720">taille *</text>
+<text x="1138" y="753" font-size="10" fill="#101720">nom_origine *</text>
+<text x="1138" y="768" font-size="10" fill="#101720">legende *</text>
+<text x="1138" y="783" font-size="10" fill="#101720">emetteur *</text>
+<text x="1138" y="798" font-size="10" fill="#101720">ordre *</text>
+<text x="1138" y="813" font-size="10" fill="#0E7C5A">FK envoye_par *</text>
+<text x="1138" y="828" font-size="10" fill="#101720">cree_le *</text>
+<rect x="24" y="1117" width="12" height="12" rx="2" fill="#0E7C5A"/><text x="42" y="1126" font-size="11" fill="#101720">Référentiels</text>
+<rect x="171.2" y="1117" width="12" height="12" rx="2" fill="#101720"/><text x="189.2" y="1126" font-size="11" fill="#101720">Acteurs</text>
+<rect x="285.4" y="1117" width="12" height="12" rx="2" fill="#C2571B"/><text x="303.4" y="1126" font-size="11" fill="#101720">Traces du parcours</text>
+<rect x="472.2" y="1117" width="12" height="12" rx="2" fill="#5A6673"/><text x="490.2" y="1126" font-size="11" fill="#101720">Contexte et évaluation</text>
+<text x="24" y="1152" font-size="10.5" fill="#5A6673">PK : clé primaire.  FK : clé étrangère.  * : valeur obligatoire.</text>
+<text x="24" y="1166" font-size="10.5" fill="#5A6673">Les flèches vont de la clé étrangère vers la table référencée.</text>
+</svg>

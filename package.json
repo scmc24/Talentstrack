@@ -1,0 +1,34 @@
+{
+  "name": "talentstrack",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "apercu": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deployer": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "controles": "node scripts/controles.mjs",
+    "types": "npx tsc --noEmit",
+    "test:schema": "node scripts/test-schema.mjs",
+    "test:api": "node --experimental-strip-types scripts/test-api.ts",
+    "db:local": "wrangler d1 execute talentstrack --local --file=db/schema.sql && wrangler d1 execute talentstrack --local --file=db/seed.sql && wrangler d1 execute talentstrack --local --file=db/demo.sql",
+    "db:distant": "wrangler d1 execute talentstrack --remote --file=db/schema.sql && wrangler d1 execute talentstrack --remote --file=db/seed.sql",
+    "db:local:reset": "rm -rf .wrangler/state/v3/d1 && npm run db:local",
+    "admin:promouvoir": "node scripts/promouvoir-admin.mjs"
+  },
+  "dependencies": {
+    "hono": "^4.13.9",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260927.1",
+    "@opennextjs/cloudflare": "^1.20.8",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.147.0"
+  }
+}

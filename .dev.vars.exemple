@@ -1,0 +1,16 @@
+# Secrets du Worker en développement.
+#
+# Copiez ce fichier en « .dev.vars » et renseignez-le. Ce fichier est ignoré
+# par git : il ne doit jamais être versionné.
+#
+# En production, cette valeur ne passe PAS par ce fichier :
+#   wrangler secret put SEL_MOT_DE_PASSE
+
+# Sel du hachage des mots de passe. Doit être identique à celui de la
+# production, sinon un mot de passe créé en local n'y sera pas reconnu.
+# Engendrer : node -e "console.log(crypto.randomUUID()+crypto.randomUUID())"
+SEL_MOT_DE_PASSE="sel-de-developpement"
+
+# Adresse publique du site. Sert aux adresses canoniques, au plan du site et
+# aux aperçus de partage. En production, renseignez le domaine réel.
+NEXT_PUBLIC_SITE="http://localhost:8787"

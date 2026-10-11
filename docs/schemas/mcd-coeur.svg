@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="720" viewBox="0 0 1120 720" font-family="Helvetica, Arial, sans-serif">
+<rect width="1120" height="720" fill="#F7F8F9"/>
+<defs>
+<marker id="fleche" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5A6673"/></marker>
+<marker id="patte" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M10 0L0 5L10 10M0 5H10" fill="none" stroke="#5A6673" stroke-width="1.3"/></marker>
+</defs>
+<text x="24" y="34" font-size="17" font-weight="bold" fill="#101720">Modèle conceptuel de données — cœur du modèle</text>
+<line x1="152.1" y1="243.0" x2="152.2" y2="232.0" stroke="#5A6673" stroke-width="1.2"/>
+<rect x="131.1" y="226.9" width="42" height="18" rx="9" fill="#F7F8F9" stroke="#C9D0D6" stroke-width="0.8"/><text x="152.1" y="240.9" font-size="10.5" fill="#5A6673" text-anchor="middle">1,1</text>
+<line x1="152.1" y1="289.0" x2="152.2" y2="300.0" stroke="#5A6673" stroke-width="1.2"/>
+<rect x="131.2" y="285.1" width="42" height="18" rx="9" fill="#F7F8F9" stroke="#C9D0D6" stroke-width="0.8"/><text x="152.2" y="299.1" font-size="10.5" fill="#5A6673" text-anchor="middle">1,1</text>
+<line x1="152.2" y1="396.0" x2="152.2" y2="388.0" stroke="#5A6673" stroke-width="1.2"/>
+<rect x="131.2" y="381.5" width="42" height="18" rx="9" fill="#F7F8F9" stroke="#C9D0D6" stroke-width="0.8"/><text x="152.2" y="395.5" font-size="10.5" fill="#5A6673" text-anchor="middle">0,1</text>
+<line x1="152.1" y1="442.0" x2="152.2" y2="450.0" stroke="#5A6673" stroke-width="1.2"/>
+<rect x="131.1" y="436.5" width="42" height="18" rx="9" fill="#F7F8F9" stroke="#C9D0D6" stroke-width="0.8"/><text x="152.1" y="450.5" font-size="10.5" fill="#5A6673" text-anchor="middle">1,1</text>
+<line x1="292.0" y1="348.1" x2="245.0" y2="346.7" stroke="#5A6673" stroke-width="1.2"/>
+<rect x="244.7" y="337.3" width="42" height="18" rx="9" fill="#F7F8F9" stroke="#C9D0D6" stroke-width="0.8"/><text x="265.7" y="351.3" font-size="10.5" fill="#5A6673" text-anchor="middle">0,n</text>
+<line x1="412.6" y1="355.5" x2="470.0" y2="361.4" stroke="#5A6673" stroke-width="1.2"/>
+<rect x="423.8" y="348.8" width="42" height="18" rx="9" fill="#F7F8F9" stroke="#C9D0D6" stroke-width="0.8"/><text x="444.8" y="362.8" font-size="10.5" fill="#5A6673" text-anchor="middle">1,1</text>
+<line x1="706.2" y1="355.8" x2="660.0" y2="360.8" stroke="#5A6673" stroke-width="1.2"/>
+<rect x="659.3" y="348.6" width="42" height="18" rx="9" fill="#F7F8F9" stroke="#C9D0D6" stroke-width="0.8"/><text x="680.3" y="362.6" font-size="10.5" fill="#5A6673" text-anchor="middle">0,1</text>
+<line x1="813.8" y1="355.8" x2="860.0" y2="360.8" stroke="#5A6673" stroke-width="1.2"/>
+<rect x="818.7" y="348.6" width="42" height="18" rx="9" fill="#F7F8F9" stroke="#C9D0D6" stroke-width="0.8"/><text x="839.7" y="362.6" font-size="10.5" fill="#5A6673" text-anchor="middle">0,n</text>
+<line x1="948.7" y1="288.5" x2="949.6" y2="300.0" stroke="#5A6673" stroke-width="1.2"/>
+<rect x="928.2" y="284.9" width="42" height="18" rx="9" fill="#F7F8F9" stroke="#C9D0D6" stroke-width="0.8"/><text x="949.2" y="298.9" font-size="10.5" fill="#5A6673" text-anchor="middle">1,1</text>
+<line x1="947.1" y1="243.0" x2="947.2" y2="232.0" stroke="#5A6673" stroke-width="1.2"/>
+<rect x="926.1" y="226.9" width="42" height="18" rx="9" fill="#F7F8F9" stroke="#C9D0D6" stroke-width="0.8"/><text x="947.1" y="240.9" font-size="10.5" fill="#5A6673" text-anchor="middle">0,n</text>
+<line x1="564.4" y1="517.8" x2="563.8" y2="545.0" stroke="#5A6673" stroke-width="1.2"/>
+<rect x="543.1" y="523.0" width="42" height="18" rx="9" fill="#F7F8F9" stroke="#C9D0D6" stroke-width="0.8"/><text x="564.1" y="537.0" font-size="10.5" fill="#5A6673" text-anchor="middle">1,1</text>
+<line x1="565.0" y1="472.0" x2="565.0" y2="442.0" stroke="#5A6673" stroke-width="1.2"/>
+<rect x="544.0" y="445.2" width="42" height="18" rx="9" fill="#F7F8F9" stroke="#C9D0D6" stroke-width="0.8"/><text x="565.0" y="459.2" font-size="10.5" fill="#5A6673" text-anchor="middle">0,1</text>
+<rect x="60" y="90" width="185" height="142" rx="4" fill="#FFFFFF" stroke="#101720" stroke-width="1.6"/><path d="M60 94a4 4 0 0 1 4-4h177a4 4 0 0 1 4 4v22H60z" fill="#101720"/><text x="152" y="108" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PERSONNE</text>
+<text x="70" y="134" font-size="11" fill="#101720">identifiant</text>
+<line x1="70" y1="137" x2="135" y2="137" stroke="#101720" stroke-width="1"/>
+<text x="70" y="152" font-size="11" fill="#101720">nom</text>
+<text x="70" y="170" font-size="11" fill="#101720">date de naissance</text>
+<text x="70" y="188" font-size="11" fill="#101720">sexe</text>
+<text x="70" y="206" font-size="11" fill="#101720">rôle</text>
+<text x="70" y="224" font-size="11" fill="#101720">adresse électronique</text>
+<rect x="60" y="300" width="185" height="88" rx="4" fill="#FFFFFF" stroke="#101720" stroke-width="1.6"/><path d="M60 304a4 4 0 0 1 4-4h177a4 4 0 0 1 4 4v22H60z" fill="#101720"/><text x="152" y="318" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">SPORTIF</text>
+<text x="70" y="344" font-size="11" fill="#101720">identifiant</text>
+<line x1="70" y1="347" x2="135" y2="347" stroke="#101720" stroke-width="1"/>
+<text x="70" y="362" font-size="11" fill="#101720">latéralité</text>
+<text x="70" y="380" font-size="11" fill="#101720">statut</text>
+<rect x="60" y="450" width="185" height="124" rx="4" fill="#FFFFFF" stroke="#5A6673" stroke-width="1.6"/><path d="M60 454a4 4 0 0 1 4-4h177a4 4 0 0 1 4 4v22H60z" fill="#5A6673"/><text x="152" y="468" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">SOCLE</text>
+<text x="70" y="494" font-size="11" fill="#101720">âge premier contact</text>
+<text x="70" y="512" font-size="11" fill="#101720">âge première structure</text>
+<text x="70" y="530" font-size="11" fill="#101720">contexte initial</text>
+<text x="70" y="548" font-size="11" fill="#101720">soutien familial</text>
+<text x="70" y="566" font-size="11" fill="#101720">conditions</text>
+<rect x="470" y="300" width="190" height="142" rx="4" fill="#FFFFFF" stroke="#101720" stroke-width="1.6"/><path d="M470 304a4 4 0 0 1 4-4h182a4 4 0 0 1 4 4v22H470z" fill="#101720"/><text x="565" y="318" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ÉTAPE</text>
+<text x="480" y="344" font-size="11" fill="#101720">identifiant</text>
+<line x1="480" y1="347" x2="545" y2="347" stroke="#101720" stroke-width="1"/>
+<text x="480" y="362" font-size="11" fill="#101720">début</text>
+<text x="480" y="380" font-size="11" fill="#101720">fin</text>
+<text x="480" y="398" font-size="11" fill="#101720">niveau</text>
+<text x="480" y="416" font-size="11" fill="#101720">motif de fin</text>
+<text x="480" y="434" font-size="11" fill="#101720">fiabilité</text>
+<rect x="860" y="300" width="190" height="142" rx="4" fill="#FFFFFF" stroke="#101720" stroke-width="1.6"/><path d="M860 304a4 4 0 0 1 4-4h182a4 4 0 0 1 4 4v22H860z" fill="#101720"/><text x="955" y="318" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">STRUCTURE</text>
+<text x="870" y="344" font-size="11" fill="#101720">identifiant</text>
+<line x1="870" y1="347" x2="935" y2="347" stroke="#101720" stroke-width="1"/>
+<text x="870" y="362" font-size="11" fill="#101720">nom</text>
+<text x="870" y="380" font-size="11" fill="#101720">type</text>
+<text x="870" y="398" font-size="11" fill="#101720">latitude</text>
+<text x="870" y="416" font-size="11" fill="#101720">longitude</text>
+<text x="870" y="434" font-size="11" fill="#101720">vérifiée</text>
+<rect x="840" y="90" width="215" height="142" rx="4" fill="#FFFFFF" stroke="#0E7C5A" stroke-width="1.6"/><path d="M840 94a4 4 0 0 1 4-4h207a4 4 0 0 1 4 4v22H840z" fill="#0E7C5A"/><text x="948" y="108" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">UNITÉ ADMINISTRATIVE</text>
+<text x="850" y="134" font-size="11" fill="#101720">code</text>
+<line x1="850" y1="137" x2="874" y2="137" stroke="#101720" stroke-width="1"/>
+<text x="850" y="152" font-size="11" fill="#101720">nom</text>
+<text x="850" y="170" font-size="11" fill="#101720">niveau</text>
+<text x="850" y="188" font-size="11" fill="#101720">latitude</text>
+<text x="850" y="206" font-size="11" fill="#101720">longitude</text>
+<text x="850" y="224" font-size="11" fill="#101720">population</text>
+<rect x="455" y="545" width="215" height="106" rx="4" fill="#FFFFFF" stroke="#C2571B" stroke-width="1.6"/><path d="M455 549a4 4 0 0 1 4-4h207a4 4 0 0 1 4 4v22H455z" fill="#C2571B"/><text x="562" y="563" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TRANSITION</text>
+<text x="465" y="589" font-size="11" fill="#101720">identifiant</text>
+<line x1="465" y1="592" x2="530" y2="592" stroke="#101720" stroke-width="1"/>
+<text x="465" y="607" font-size="11" fill="#101720">mode d’arrivée</text>
+<text x="465" y="625" font-size="11" fill="#101720">date d’effet</text>
+<text x="465" y="643" font-size="11" fill="#101720">fiabilité</text>
+<polygon points="152,243 224,266 152,289 80,266" fill="#FFFFFF" stroke="#C2571B" stroke-width="1.6"/><text x="152" y="270" font-size="11" fill="#101720" text-anchor="middle">est un</text>
+<polygon points="152,396 224,419 152,442 80,419" fill="#FFFFFF" stroke="#C2571B" stroke-width="1.6"/><text x="152" y="423" font-size="11" fill="#101720" text-anchor="middle">part de</text>
+<polygon points="358,327 430,350 358,373 286,350" fill="#FFFFFF" stroke="#C2571B" stroke-width="1.6"/><text x="358" y="354" font-size="11" fill="#101720" text-anchor="middle">parcourt</text>
+<polygon points="760,327 832,350 760,373 688,350" fill="#FFFFFF" stroke="#C2571B" stroke-width="1.6"/><text x="760" y="354" font-size="11" fill="#101720" text-anchor="middle">se déroule dans</text>
+<polygon points="947,243 1019,266 947,289 875,266" fill="#FFFFFF" stroke="#C2571B" stroke-width="1.6"/><text x="947" y="270" font-size="11" fill="#101720" text-anchor="middle">est situé dans</text>
+<polygon points="565,472 637,495 565,518 493,495" fill="#FFFFFF" stroke="#C2571B" stroke-width="1.6"/><text x="565" y="499" font-size="11" fill="#101720" text-anchor="middle">mène à</text>
+<text x="24" y="642" font-size="10.5" fill="#5A6673">Les attributs soulignés sont les identifiants.</text>
+<text x="24" y="657" font-size="10.5" fill="#5A6673">La TRANSITION est une entité à part entière et non un attribut de l’ÉTAPE : elle porte le mode d’arrivée,</text>
+<text x="24" y="672" font-size="10.5" fill="#5A6673">information que ni l’étape précédente ni la suivante ne contiennent.</text>
+<text x="24" y="687" font-size="10.5" fill="#5A6673">Chaque ÉTAPE conserve son UNITÉ ADMINISTRATIVE au moment où elle s’est déroulée, indépendamment</text>
+<text x="24" y="702" font-size="10.5" fill="#5A6673">de l’adresse actuelle de la structure.</text>
+</svg>
